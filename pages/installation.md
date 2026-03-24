@@ -7,7 +7,7 @@ layout: section
 Follow along on your laptop — I will keep talking while you install.
 
 ---
-layout: two-cols
+layout: two-cols-header
 layoutClass: gap-8
 ---
 
@@ -36,7 +36,7 @@ Ask: "Raise your hand if you already have VS Code installed." — those people c
 -->
 
 ---
-layout: two-cols
+layout: two-cols-header
 layoutClass: gap-8
 ---
 
@@ -98,7 +98,7 @@ Common issue: terminal not finding npm → they need to restart VS Code after No
 
 ## Step 4: Install the VS Code Extension
 
-1. Open the Extensions panel: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> (Windows) / <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> (Mac)
+1. Open the Extensions panel: `[Ctrl]+[Shift]+[X]` (Windows) / `[Cmd]+[Shift]+[X]` (Mac)
 2. Search for **"Claude Code"** by Anthropic
 3. Click **Install**
 
