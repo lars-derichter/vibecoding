@@ -1,10 +1,9 @@
-# Study Smarter with AI (as a Programming Student)
+# Vibecoding with Claude Code (for Business students)
 
-Workshop on studying with AI as a Programming Student.
-Given on 2025-12-03 to the students of the Associate Degree of Software Development at Thomas More University of Applied
-Sciences.
+Workshop on Vibecoding with Claude Code.
+Given on 2026-03-26 to Business Students at Thomas More University of Applied Sciences.
 
-Visit: https://lars-derichter.github.io/study-smarter-with-ai-for-programmers/
+Visit: https://lars-derichter.github.io/vibecoding/
 
 Made with [Slidev](https://sli.dev)
 
