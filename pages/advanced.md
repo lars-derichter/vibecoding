@@ -1,5 +1,6 @@
 ---
 layout: section
+transition: slide-left
 ---
 
 # Going Further with Claude Code
