@@ -40,9 +40,9 @@ The workflow you learned today works with many tools — not just Claude Code.
 <v-clicks>
 
 - **GitHub Copilot** — AI pair programmer in VS Code & JetBrains: [github.com/features/copilot](https://github.com/features/copilot)
-- **OpenAI Codex** — OpenAI's coding agent in the terminal: [openai.com/index/codex](https://openai.com/index/codex/)
+- **OpenAI Codex** — OpenAI's agentic coding tool: [openai.com/codex](https://openai.com/codex/)
 - **Cursor IDE** — AI-first code editor: [cursor.com](https://www.cursor.com/)
-- **Windsurf** — agentic IDE by Codeium: [windsurf.com](https://windsurf.com/)
+- **Windsurf** — agentic IDE: [windsurf.com](https://windsurf.com/)
 
 </v-clicks>
 

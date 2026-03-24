@@ -103,7 +103,7 @@ Find my [LinkedIn Profile](https://www.linkedin.com/in/larsderichter/)
 
 <a href="https://lars-derichter.github.io/vibecoding">Vibecoding with Claude Code (for Business students)</a>
 
-&copy; 2025 by <a href="https://lars-derichter.github.io/">Lars De Richter</a>
+&copy; 2025–2026 by <a href="https://lars-derichter.github.io/">Lars De Richter</a>
 
 is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 
