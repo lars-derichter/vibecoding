@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: /cover.png
+background: /cover.jpg
 title: Vibecoding with Claude Code (for Business students)
 info: |
   Workshop on Vibecoding with Claude Code.
@@ -20,8 +20,8 @@ A hands-on workshop for Business students
 ## Who am I?
 
 - Lars De Richter
-- Lecturer at [Thomas More University of Applied Sciences](https://thomasmore.be)
-- Using AI daily in teaching and development
+- Lecturer in Associate Degree of Software Development at [Thomas More University of Applied Sciences](https://thomasmore.be)
+- Using AI daily in teaching and coding
 
 ---
 
