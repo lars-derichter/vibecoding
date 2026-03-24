@@ -62,37 +62,48 @@ Download from **[nodejs.org](https://nodejs.org/)** (LTS version)
 
 <v-click>
 
-> Node.js is needed to install Claude Code. You will not need to write any JavaScript.
+> You will not need to write any JavaScript — Node.js is useful for the web projects you'll build today.
 
 </v-click>
 
+---
+layout: two-cols-header
+layoutClass: gap-8
 ---
 
 ## Step 3: Install Claude Code CLI
 
 Open the built-in terminal in VS Code.
 
-```bash
-npm install -g @anthropic-ai/claude-code
-```
+::left::
 
-Then start Claude Code:
+### Mac
 
 ```bash
-claude
+curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-This opens your browser to authenticate. Sign in with your Anthropic account.
+::right::
+
+### Windows (PowerShell)
+
+```powershell
+irm https://claude.ai/install.ps1 | iex
+```
+
+::content::
 
 <v-click>
 
-**Troubleshooting:** If `npm` is not found, restart VS Code after installing Node.js.
+Then start Claude Code: `claude` — this opens your browser to authenticate.
+
+Install URL: **[claude.ai/install.sh](https://claude.ai/install.sh)**
 
 </v-click>
 
 <!--
 Walk around and help students who get stuck.
-Common issue: terminal not finding npm → they need to restart VS Code after Node.js install.
+The native installer auto-updates in the background.
 -->
 
 ---

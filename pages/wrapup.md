@@ -75,6 +75,6 @@ The workflow you learned today works with many tools — not just Claude Code.
 
 ## Resources
 
-- **Claude Code docs:** [docs.anthropic.com/en/docs/claude-code](https://docs.anthropic.com/en/docs/claude-code)
+- **Claude Code docs:** [code.claude.com/docs](https://code.claude.com/docs/en/overview)
 - **This presentation:** [lars-derichter.github.io/vibecoding](https://lars-derichter.github.io/vibecoding/)
 - **Slidev** (make your own presentations like this): [sli.dev](https://sli.dev)

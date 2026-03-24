@@ -60,6 +60,6 @@ Claude has a **context window** — long sessions can lose early context.
 
 <v-click>
 
-Docs: **[docs.anthropic.com/en/docs/claude-code](https://docs.anthropic.com/en/docs/claude-code)**
+Docs: **[code.claude.com/docs](https://code.claude.com/docs/en/overview)**
 
 </v-click>
