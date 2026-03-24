@@ -101,9 +101,16 @@ Install URL: **[claude.ai/install.sh](https://claude.ai/install.sh)**
 
 </v-click>
 
+<v-click>
+
+> You need an **Anthropic account** with a Pro plan ($20/month) to use Claude Code. New users can start a **30-day free trial** at [claude.ai](https://claude.ai).
+
+</v-click>
+
 <!--
 Walk around and help students who get stuck.
 The native installer auto-updates in the background.
+Students need a paid plan — help them sign up for the free trial if needed.
 -->
 
 ---
