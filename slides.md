@@ -1,24 +1,19 @@
 ---
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: /cover.png
-# some information about your slides (markdown enabled)
 title: Vibecoding with Claude Code (for Business students)
 info: |
   Workshop on Vibecoding with Claude Code.
   Given on 2026-03-26 to Business Students at Thomas More University of Applied Sciences.
   &copy; Lars De Richter
-
-# apply UnoCSS classes to the current slide
 class: text-center
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
 
-# ‘Vibecoding’ with Claude Code
+# 'Vibecoding' with Claude Code
+
+A hands-on workshop for Business students
 
 ---
 
@@ -26,12 +21,56 @@ mdc: true
 
 - Lars De Richter
 - Lecturer at [Thomas More University of Applied Sciences](https://thomasmore.be)
+- Using AI daily in teaching and development
 
 ---
 
 ## Topics
 
+1. What is vibecoding?
+2. Installation
+3. The vibecoding workflow
+4. Live demo
+5. Tips & tricks
+6. Risks
+7. Going further
+8. Your turn — group exercise
 
+---
+src: ./pages/vibecoding.md
+---
+
+---
+src: ./pages/installation.md
+---
+
+---
+src: ./pages/workflow.md
+---
+
+---
+src: ./pages/demo.md
+---
+
+---
+src: ./pages/tips.md
+---
+
+---
+src: ./pages/risks.md
+---
+
+---
+src: ./pages/advanced.md
+---
+
+---
+src: ./pages/exercise.md
+---
+
+---
+src: ./pages/wrapup.md
+---
 
 ---
 layout: section
@@ -51,10 +90,8 @@ Find my [LinkedIn Profile](https://www.linkedin.com/in/larsderichter/)
 
 ## AI Used to Create This Presentation
 
-- Comet browser to resurface saved LinkedIn posts on Cognitive offloading
-- ChatGPT for help with configuring [Slidev](https://sli.dev/)
-- ChatGPT for images
 - Claude (Code) as a sparring partner for improving this slideshow (structure and contents) and reformulating some texts
+- Nano Banana Pro for images
 
 ---
 
@@ -64,9 +101,9 @@ Find my [LinkedIn Profile](https://www.linkedin.com/in/larsderichter/)
 
 ## License
 
-<a href="https://lars-derichter.github.io/learn-with-ai-prg">Study Smarter with AI (as a Programming Student)</a>
+<a href="https://lars-derichter.github.io/vibecoding">Vibecoding with Claude Code (for Business students)</a>
 
-© 2025 by <a href="https://lars-derichter.github.io/">Lars De Richter</a>
+&copy; 2025 by <a href="https://lars-derichter.github.io/">Lars De Richter</a>
 
 is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 
