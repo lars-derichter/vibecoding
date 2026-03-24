@@ -11,6 +11,7 @@ layout: section
 - A **markdown file** in your project root that Claude reads automatically
 - Put coding conventions, tech stack, and project-specific instructions here
 - Like a **briefing document** for your AI collaborator
+- Run **`/init`** to let Claude generate a CLAUDE.md by analysing your project
 
 ```markdown
 # CLAUDE.md

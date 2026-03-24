@@ -1,5 +1,6 @@
 ---
 layout: section
+transition: slide-left
 ---
 
 # Wrap-up
@@ -29,6 +30,46 @@ layout: section
 - Claude Code is your **collaborator**, not your replacement
 
 </v-clicks>
+
+---
+
+## Other Agentic Coding Tools
+
+The workflow you learned today works with many tools — not just Claude Code.
+
+<v-clicks>
+
+- **GitHub Copilot** — AI pair programmer in VS Code & JetBrains: [github.com/features/copilot](https://github.com/features/copilot)
+- **OpenAI Codex** — OpenAI's coding agent in the terminal: [openai.com/index/codex](https://openai.com/index/codex/)
+- **Cursor IDE** — AI-first code editor: [cursor.com](https://www.cursor.com/)
+- **Windsurf** — agentic IDE by Codeium: [windsurf.com](https://windsurf.com/)
+
+</v-clicks>
+
+<v-click>
+
+> The **principles** stay the same: think first, prompt clearly, verify always.
+
+</v-click>
+
+---
+
+## Keep Experimenting!
+
+<v-clicks>
+
+- You don't need to be a programmer to **build things with AI**
+- Start small: a personal website, a simple tool, a prototype for a business idea
+- Break things, learn from mistakes, iterate
+- The best way to understand AI's strengths and limits is to **use it**
+
+</v-clicks>
+
+<v-click>
+
+> "The future belongs to those who can **collaborate with AI**, not compete with it."
+
+</v-click>
 
 ---
 
