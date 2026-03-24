@@ -27,6 +27,10 @@ This is a standard Slidev project. Slide content lives in Markdown files:
 - **GitHub Pages**: Auto-deploys on push to `main` via `.github/workflows/deploy.yml`. Build uses `--base /<repo-name>/` for correct asset paths.
 - Netlify and Vercel configs also exist (`netlify.toml`, `vercel.json`) as alternatives.
 
+## Conventions
+
+- All section pages (`pages/*.md`) use `transition: slide-left` in their frontmatter.
+
 ## Formatting
 
 Prettier is configured with `prettier-plugin-slidev` to parse `slides.md` and `pages/*.md` using the Slidev parser (see `.prettierrc`).
