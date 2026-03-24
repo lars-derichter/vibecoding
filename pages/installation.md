@@ -70,7 +70,7 @@ Download from **[nodejs.org](https://nodejs.org/)** (LTS version)
 
 ## Step 3: Install Claude Code CLI
 
-Open the built-in terminal in VS Code: <kbd>Ctrl</kbd>+<kbd>`</kbd> (Windows) / <kbd>Cmd</kbd>+<kbd>`</kbd> (Mac)
+Open the built-in terminal in VS Code.
 
 ```bash
 npm install -g @anthropic-ai/claude-code
