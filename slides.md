@@ -13,7 +13,7 @@ mdc: true
 
 # 'Vibecoding' with Claude Code
 
-A hands-on workshop for Business students
+A hands-on workshop for students
 
 ---
 
