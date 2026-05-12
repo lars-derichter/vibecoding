@@ -11,35 +11,21 @@ A cheat-sheet for your group exercise.
 
 ## Choosing the Right Model
 
-| Model | Speed | Best for |
-|-------|-------|----------|
-| **Sonnet** | Fast | Straightforward tasks, quick edits |
-| **Opus** | Slower | Complex reasoning, architecture decisions |
-| **Haiku** | Fastest | Tiny tasks — formatting, renaming |
+| Model      | Speed   | Cost | Best for                                            |
+| ---------- | ------- | ---- | --------------------------------------------------- |
+| **Sonnet** | Fast    | $$   | Straightforward tasks, quick edits                  |
+| **Opus**   | Slower  | $$$  | Complex reasoning, architecture decisions, planning |
+| **Haiku**  | Fastest | $    | Tiny tasks — formatting, renaming, summarising      |
 
 <v-click>
 
-**Rule of thumb:** Start with Sonnet. Escalate to Opus when stuck or when planning something complex.
+**Rule of thumb:** Start with Sonnet. Escalate to Opus when stuck or planning something gnarly. Drop to Haiku for repetitive mechanical work to save your usage budget.
 
 </v-click>
 
----
-
-## Plan Mode
-
-Toggle with <kbd>Shift</kbd>+<kbd>Tab</kbd> in Claude Code.
-
-<v-clicks>
-
-- Claude **thinks and plans** but does not write code yet
-- Use it at the **start of a new feature** or when you are unsure about the approach
-- Great for: _"Plan how you would add user authentication to this app"_
-
-</v-clicks>
-
 <v-click>
 
-> Plan first, code second. This is the single most underused feature.
+Check `/usage` in Claude Code to see what your session is using.
 
 </v-click>
 
@@ -116,25 +102,6 @@ Fix it.
 <v-click>
 
 Let Claude read the relevant files — it often spots the issue faster than you.
-
-</v-click>
-
----
-
-## Creating Documentation
-
-```
-Create a README.md for this project explaining what it does
-and how to run it.
-```
-
-```
-Add comments to explain the key parts of this code.
-```
-
-<v-click>
-
-Useful for group projects, hand-offs, and your own future self.
 
 </v-click>
 
