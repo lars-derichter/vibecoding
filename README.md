@@ -8,9 +8,10 @@ Visit: https://lars-derichter.github.io/vibecoding/ for the slides and download 
 
 ## Resources
 
-- [Personal CLAUDE.md](resources/personal-claude-md/CLAUDE.md) — example user-wide instructions file
+- [Personal CLAUDE.md](resources/personal-claude-md/CLAUDE.md) — example user-wide instructions file that lives in my `~/.claude` folder.
 - [settings-example.jsonc](resources/settings-example.jsonc) — annotated `~/.claude/settings.json` template
-- [atomic-commits skill](resources/skills/atomic-commits.md) — skill for splitting messy changes into clean commits
+- [atomic-commits skill](resources/skills/atomic-commits.md) — example skill for splitting messy changes into clean commits
+- [barlog](https://github.com/lars-derichter/barlog) - the app we vibecoded during the demo (only one iteration)
 
 Made with [Slidev](https://sli.dev)
 
