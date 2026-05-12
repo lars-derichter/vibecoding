@@ -18,7 +18,7 @@ transition: slide-left
 
 <v-click>
 
-> Option B is more engaging if you have a real project — but watch the privacy risks from the previous section. Don't bring anything with credentials or sensitive data.
+> Option B is more engaging if you have a real project — but mind the privacy risks (more on those later). Don't bring anything with credentials or sensitive data.
 
 </v-click>
 

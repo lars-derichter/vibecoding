@@ -31,11 +31,11 @@ A hands-on workshop for Business students
 2. Installation
 3. The vibecoding workflow
 4. Live demo — the pro path
-5. Tips & tricks
-6. Going pro: git, CLAUDE.md, testing, skills, permissions
-7. Memory & more features (MCP, subagents, hooks, cost)
-8. Risks
-9. Your turn — group exercise
+5. Your turn — group exercise
+6. Tips & tricks
+7. Going pro: git, CLAUDE.md, testing, skills, permissions
+8. Memory & more features (MCP, subagents, hooks, cost)
+9. Risks
 
 ---
 src: ./pages/vibecoding.md
@@ -51,6 +51,10 @@ src: ./pages/workflow.md
 
 ---
 src: ./pages/demo.md
+---
+
+---
+src: ./pages/exercise.md
 ---
 
 ---
@@ -71,10 +75,6 @@ src: ./pages/more-features.md
 
 ---
 src: ./pages/risks.md
----
-
----
-src: ./pages/exercise.md
 ---
 
 ---
