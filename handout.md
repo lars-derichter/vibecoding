@@ -97,3 +97,59 @@ When you have something working:
 - *"Add error handling for edge cases"*
 - *"Create a CLAUDE.md file with project conventions"* — helps Claude help you
 - Use `/clear` to reset context when switching tasks
+
+---
+
+## Going Further
+
+### Git as your safety net
+
+- Start on GitHub: create the repo with a generated README, then `git clone` locally. `git init` works offline.
+- Commit every working step — your undo button.
+- Ask Claude to write the commit message: `Stage the relevant files and commit with a clear message explaining why.`
+- Push regularly. Cloud > laptop.
+
+### CLAUDE.md — keep it alive
+
+- Run `/init` to bootstrap.
+- Edit it with Claude as the project changes: `Update CLAUDE.md to reflect the new build script.`
+- Belongs in CLAUDE.md: tech stack, conventions, commands, gotchas.
+- Doesn't belong: transient state, secrets, long prose.
+
+### Testing prompts
+
+- `Add tests for this function covering the happy path and one edge case.`
+- `Write a failing test for X, then make it pass.`
+- `Add a regression test so this bug can't come back.`
+
+### Code review before commit
+
+- `Review this diff for bugs, edge cases, and security issues. What would a senior engineer change?`
+- `What else in this codebase does this change affect? Are there places I should also update?`
+- `Find any duplicated logic in this file and propose a refactor.`
+
+### Skills
+
+- Invoke with `/<skill-name>` in Claude Code.
+- Built-in: `/review`, `/security-review`, `/init`.
+- Example custom skill (atomic commits): [resources/skills/atomic-commits.md](resources/skills/atomic-commits.md).
+
+### Permissions & settings.json
+
+- `~/.claude/settings.json` (user-wide), `.claude/settings.json` (project), `.claude/settings.local.json` (personal per-project).
+- Annotated example: [resources/settings-example.jsonc](resources/settings-example.jsonc).
+- Never blanket-allow `Bash(*)`.
+
+### Memory: three layers
+
+- **Session** — current conversation. `/compact` to summarise, `/clear` to reset, `claude --resume` to bring one back.
+- **Project** — `CLAUDE.md` in the repo root. Shared with the team via git.
+- **User** — `~/.claude/CLAUDE.md` + memory tool. Your personal preferences, everywhere.
+
+### MCP, subagents, hooks, cost, diff review
+
+- **MCP servers** — connect Claude to external tools (GitHub, Linear, databases). [docs](https://code.claude.com/docs/en/mcp)
+- **Subagents** — delegate research/exploration. Built-ins: Explore, Plan, general-purpose. [docs](https://code.claude.com/docs/en/sub-agents)
+- **Hooks** — shell commands triggered by harness events; great for auto-format or blocking risky writes. [docs](https://code.claude.com/docs/en/hooks)
+- **Cost & limits** — `/cost` shows session usage. Use Haiku for mechanical work to save your budget. [pricing](https://www.claude.com/pricing)
+- **Reading diffs critically** — before every commit ask: `Explain this diff line by line.` then `What else does this change touch?`
