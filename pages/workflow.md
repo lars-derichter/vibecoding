@@ -44,7 +44,32 @@ The clearer your brief, the better the result.
 
 ---
 
-## Step 2: Break It Down
+## Step 2: Plan Before You Code
+
+Toggle **plan mode** with <kbd>Shift</kbd>+<kbd>Tab</kbd>. Claude thinks and writes a plan — but does not touch files yet.
+
+<v-clicks>
+
+- Use it whenever the change touches **more than one file** or the approach is unclear
+- **Read the plan critically.** Push back: _"Why this approach? What are the alternatives?"_
+- Only approve the plan when you understand it
+
+</v-clicks>
+
+<v-click>
+
+> You would not ask a contractor to "build me a house" without a plan. Same here.
+
+</v-click>
+
+<!--
+Plan mode is the single most underused feature. For technical students: emphasize that approving a bad plan
+costs you 10x more than rejecting it. Reading the plan is the actual work.
+-->
+
+---
+
+## Step 3: Break It Down
 
 <v-clicks>
 
@@ -54,15 +79,9 @@ The clearer your brief, the better the result.
 
 </v-clicks>
 
-<v-click>
-
-> **Analogy:** You would not ask a contractor to "build me a house" without a plan. Same with AI.
-
-</v-click>
-
 ---
 
-## Step 3: Iterate and Verify
+## Step 4: Iterate and Verify
 
 After each Claude response:
 
@@ -82,7 +101,7 @@ After each Claude response:
 
 ---
 
-## Step 4: Use Claude as a Collaborator
+## Step 5: Use Claude as a Collaborator
 
 <v-clicks>
 
