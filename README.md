@@ -1,4 +1,4 @@
-# Vibecoding with Claude Code (for Business students)
+# Vibecoding with Claude Code (for students)
 
 A hands-on workshop introducingstudents to vibecoding with Claude Code. Covers the vibecoding workflow, practical tips, risks & limitations, a live demo, and a guided exercise where students build their own project.
 
