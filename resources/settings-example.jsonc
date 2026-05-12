@@ -1,0 +1,94 @@
+// Example ~/.claude/settings.json with annotations.
+// Drop this file at ~/.claude/settings.json (rename to .json — JSONC is for teaching only,
+// Claude Code reads strict JSON). Adapt to your own preferences.
+//
+// Three places settings can live:
+//   ~/.claude/settings.json            — user-wide (this file)
+//   <project>/.claude/settings.json    — checked into git, shared with the team
+//   <project>/.claude/settings.local.json — per-project, gitignored, personal
+//
+// Project settings override user settings; local settings override project.
+
+{
+  // ---------------------------------------------------------------
+  // Default model. Override per-conversation with the model picker.
+  // ---------------------------------------------------------------
+  "model": "claude-sonnet-4-6",
+
+  // ---------------------------------------------------------------
+  // Permissions: what Claude can do without asking.
+  // Patterns use the form "<Tool>(<argument>)" with * wildcards.
+  // ---------------------------------------------------------------
+  "permissions": {
+    // Default behaviour when a tool call isn't matched below.
+    // "default" = ask. "acceptEdits" = auto-approve file edits but still ask for Bash.
+    // "plan" = start every session in plan mode.
+    "defaultMode": "default",
+
+    // Allowlist: cheap, safe, read-only stuff. Add commands you run constantly.
+    "allow": [
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(ls:*)",
+      "Bash(pwd)",
+      "Bash(cat:*)",          // safe-ish; remove if you handle secrets in files
+      "Bash(npm test)",
+      "Bash(npm run test:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run build)",
+      "Read(//**)",            // read any file Claude is asked about
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:code.claude.com)"
+    ],
+
+    // Denylist: things Claude must never do, even if asked. Wins over allow.
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(sudo:*)",
+      "Bash(curl:* | sh)",
+      "Bash(curl:* | bash)",
+      "Read(./.env)",           // keep secrets out of the context window
+      "Read(./.env.*)",
+      "Read(//**/.ssh/**)",
+      "Read(//**/credentials*)"
+    ],
+
+    // Ask explicitly even if something else might allow it.
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git rebase:*)",
+      "Bash(npm publish)"
+    ]
+  },
+
+  // ---------------------------------------------------------------
+  // Environment variables exposed to Claude's tool calls.
+  // Useful for non-secret config; for secrets, prefer apiKeyHelper or shell env.
+  // ---------------------------------------------------------------
+  "env": {
+    "EDITOR": "code --wait"
+  },
+
+  // ---------------------------------------------------------------
+  // Hooks: shell commands that fire on harness events.
+  // Great for auto-formatting, audit logs, blocking risky writes.
+  // See: https://code.claude.com/docs/en/hooks
+  // ---------------------------------------------------------------
+  "hooks": {
+    "PostToolUse": [
+      {
+        // Run prettier on any markdown/TS/JS Claude edits — only if the binary exists.
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "command -v prettier >/dev/null && prettier --write \"$CLAUDE_FILE_PATHS\" 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}
