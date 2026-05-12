@@ -22,14 +22,14 @@ Emphasize: vibecoding is not just "asking ChatGPT for code" — it is a workflow
 
 ---
 
-## Why Should Business Students Care?
+## Why Should You Care?
 
 <v-clicks>
 
-- **Build prototypes and MVPs** without a dev team
+- **Move faster than your current skills suggest** — prototypes, MVPs, internal tools
 - **Automate repetitive tasks** — spreadsheets, reports, small web apps
-- **Communicate better with developers** by understanding what is possible
-- **Stand out** — the ability to build things is a superpower in business
+- **Speak the same language as developers** — understand what is possible, and what it costs
+- **Build a portfolio** — shipping small things compounds
 
 </v-clicks>
 
@@ -40,9 +40,8 @@ Emphasize: vibecoding is not just "asking ChatGPT for code" — it is a workflow
 </v-click>
 
 <!--
-Stress that they don't need to become programmers.
-The point is: they can now build things that used to require hiring a developer.
-Ask: "Who here has had an idea for a small tool or website but couldn't build it?"
+The shift: AI didn't remove the need to think about software, it lowered the cost of trying.
+Ask: "Who here has had an idea for a small tool or website but couldn't get it off the ground?"
 -->
 
 ---
@@ -60,10 +59,11 @@ Ask: "Who here has had an idea for a small tool or website but couldn't build it
 - Strong at planning and breaking down tasks
 - Asks clarifying questions before diving in
 - Cautious by default — asks for permission before making changes
+- **Terminal-first** (vs. IDE-first tools like Cursor/Windsurf) — fewer GUI surprises, easier to script and automate
 
 </v-click>
 
 <!--
-Brief comparison: ChatGPT/Copilot = you copy-paste code back and forth.
-Claude Code = it works directly in your project, like a pair programmer sitting next to you.
+Terminal-first means the same workflow works in VS Code, JetBrains, or a plain shell.
+Trade-off: less visual hand-holding than Cursor, more control and reproducibility.
 -->

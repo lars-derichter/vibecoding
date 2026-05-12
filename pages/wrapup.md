@@ -58,7 +58,7 @@ The workflow you learned today works with many tools — not just Claude Code.
 
 <v-clicks>
 
-- You don't need to be a programmer to **build things with AI**
+- You can **move faster than your current skills suggest** — but reading the diff is still on you
 - Start small: a personal website, a simple tool, a prototype for a business idea
 - Break things, learn from mistakes, iterate
 - The best way to understand AI's strengths and limits is to **use it**
