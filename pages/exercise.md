@@ -7,19 +7,37 @@ transition: slide-left
 
 ---
 
-## The Exercise
+## Pick Your Path
 
 <v-clicks>
 
-1. **Form groups** of 2-3 people
-2. **Brainstorm** a small project idea (5 minutes)
-3. **Build it** with Claude Code (30 minutes)
+- **Option A — Greenfield (default).** Create a new repo on GitHub, clone it, build a small project from scratch.
+- **Option B — Existing repo.** Bring a project you are already working on, **as long as it is already in git**. Add Claude Code to it.
 
 </v-clicks>
 
 <v-click>
 
-### Ideas if you're stuck
+> Option B is more engaging if you have a real project — but watch the privacy risks from the previous section. Don't bring anything with credentials or sensitive data.
+
+</v-click>
+
+---
+
+## The Exercise
+
+<v-clicks>
+
+1. **Form groups** of 2-3 people
+2. **Pick A or B** (5 min) — agree on the goal in 2-3 sentences
+3. **Build / extend it** with Claude Code (30 minutes)
+4. **Commit at least twice** along the way
+
+</v-clicks>
+
+<v-click>
+
+### Ideas for Option A
 
 - A personal portfolio page
 - A simple quiz or trivia app
@@ -36,10 +54,11 @@ transition: slide-left
 
 <v-clicks>
 
-- Start with a **clear 2-3 sentence description** of what you want
-- Use **Plan mode** first
-- Ask Claude to **ask you clarification questions** before it starts
+- Start with a **clear 2-3 sentence brief** of what you want
+- **Create `CLAUDE.md`** early — even a 10-line version helps
+- Use **plan mode** before any non-trivial change
 - Build **incrementally**: skeleton first, then features
+- **Commit often.** Each working step deserves a commit.
 - If stuck: copy the error, paste it to Claude, describe what you expected
 - **Have fun** — this is about exploring, not perfection
 
@@ -48,7 +67,8 @@ transition: slide-left
 <!--
 Walk around, help groups that are stuck. Common issues:
 - Authentication expired: re-run `claude` in terminal
-- Claude doing too much at once: remind them to break it down
+- Claude doing too much at once: remind them to use plan mode
 - "It doesn't work": help them formulate a specific error description
-- Encourage groups to try the "suggest improvements" prompt near the end
+- Option B groups: check they actually committed their starting state before touching Claude
+- Encourage groups to try the "review my diff" prompt before each commit
 -->
